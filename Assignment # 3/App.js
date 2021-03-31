@@ -20,16 +20,13 @@ console.log(newNumArray)
 // 1234
 // 12345
 
-let h = 1;
 let v = 1;
 let b = 2;
 for (var i = 0; i < 5; i++) {
-  for (var j = 0; j < h; j++) {
-    console.log(v + " ")
-    let a = v + "  " + b
-    v = a
-    b++
-  }
+  console.log(v)
+  let a = v + "  " + b
+  v = a
+  b++
 }
 
 // // *************************************************************************************
